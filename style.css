@@ -47,27 +47,24 @@ a{
 
 #google{
     border: 1px solid #ddd;
-    width: 40%;
+    width: 400px;
     /* line-height: 46px; */
     border-radius: 25px;
     margin: auto;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
     
     
 }
 
-#microphone{
-    /* background-color: #ddd; */
-    padding-top: 5px;
-    padding-left: 45px;
-    
+#input1:focus{
+    outline: none;
+
 }
 
-#glass{
-    position: absolute;
-    left: 10px;
-    top: 6px;
-}
+
 
 #english{
     color:blue;
